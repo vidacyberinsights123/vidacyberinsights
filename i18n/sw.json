@@ -1,0 +1,10 @@
+{
+    "nav.home": "Nyumbani",
+    "nav.individuals": "Watu Binafsi",
+    "nav.students": "Wanafunzi",
+    "nav.parents": "Wazazi",
+    "nav.smb": "Biashara Ndogo",
+    "nav.educators": "Welimishaji",
+    "role.hub.title": "Kituo cha Usalama cha {role}",
+    "role.hub.description": "Rasilimali za usalama wa mtandao kwa ajili ya {role}."
+}

@@ -1,0 +1,22 @@
+{
+    "id": "article-student-gaming",
+    "title": "Protecting Your School and Gaming Accounts",
+    "slug": "protect-school-gaming-accounts",
+    "summary": "Don't lose your skins or your grades. Secure your accounts now.",
+    "publishedDate": "2023-10-27",
+    "authorId": "author-editorial",
+    "roleTags": [
+        "student"
+    ],
+    "tags": [
+        "gaming",
+        "school",
+        "accounts"
+    ],
+    "readTimeMinutes": 4,
+    "content": "# Protecting Accounts\n\nGaming accounts are high-value targets. Turn on 2FA (MFA) everywhere, especially Steam and Epic Games.",
+    "featuredImage": {
+        "src": "/images/articles/gaming.jpg",
+        "alt": "Gaming Setup"
+    }
+}

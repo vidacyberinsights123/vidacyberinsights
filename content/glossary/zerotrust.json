@@ -1,0 +1,8 @@
+{
+    "id": "term-zerotrust",
+    "term": "Zero Trust",
+    "definition": "Security model that requires strict identity verification for every person and device.",
+    "relatedIds": [
+        "term-mfa"
+    ]
+}

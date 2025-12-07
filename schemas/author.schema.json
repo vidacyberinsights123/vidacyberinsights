@@ -1,0 +1,26 @@
+{
+    "$id": "author.schema.json",
+    "type": "object",
+    "required": [
+        "id",
+        "name",
+        "bio"
+    ],
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "bio": {
+            "type": "string"
+        },
+        "avatar": {
+            "type": "string"
+        },
+        "social": {
+            "type": "object"
+        }
+    }
+}

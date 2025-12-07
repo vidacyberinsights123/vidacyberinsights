@@ -1,0 +1,37 @@
+{
+    "$id": "https://vidacyberinsights.example/schemas/roadmap.schema.json",
+    "type": "object",
+    "required": [
+        "id",
+        "role",
+        "title",
+        "steps"
+    ],
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "role": {
+            "type": "string",
+            "enum": [
+                "individual",
+                "student",
+                "parent",
+                "smb",
+                "educator"
+            ]
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "steps": {
+            "type": "array",
+            "items": {
+                "$ref": "roadmap-step.schema.json"
+            }
+        }
+    }
+}

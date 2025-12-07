@@ -1,0 +1,8 @@
+{
+    "id": "term-siem",
+    "term": "SIEM",
+    "definition": "Security Information and Event Management.",
+    "relatedIds": [
+        "term-soc"
+    ]
+}

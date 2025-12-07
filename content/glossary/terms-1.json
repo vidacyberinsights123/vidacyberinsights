@@ -1,0 +1,12 @@
+[
+    {
+        "id": "term-mfa",
+        "term": "MFA (Multi-Factor Authentication)",
+        "definition": "A security system that requires more than one method of authentication from independent categories of credentials to verify the user's identity."
+    },
+    {
+        "id": "term-phishing",
+        "term": "Phishing",
+        "definition": "A cybercrime in which a target or targets are contacted by email, telephone or text message by someone posing as a legitimate institution to lure individuals into providing sensitive data."
+    }
+]

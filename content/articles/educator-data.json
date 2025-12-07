@@ -1,0 +1,22 @@
+{
+    "id": "article-educator-data",
+    "title": "Secure Classrooms: Protecting Student Data",
+    "slug": "secure-classrooms-student-data",
+    "summary": "Best practices for teachers handling sensitive student information.",
+    "publishedDate": "2023-10-27",
+    "authorId": "author-editorial",
+    "roleTags": [
+        "educator"
+    ],
+    "tags": [
+        "education",
+        "privacy",
+        "compliance"
+    ],
+    "readTimeMinutes": 6,
+    "content": "# Protecting Student Data\n\nNever store student grades on personal unencrypted drives. Use the LMS provided by the district.",
+    "featuredImage": {
+        "src": "/images/articles/classroom.jpg",
+        "alt": "Classroom"
+    }
+}

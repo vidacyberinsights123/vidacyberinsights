@@ -1,0 +1,22 @@
+{
+    "id": "article-smb-checklist",
+    "title": "Cheap & Effective Security Checklist for Small Businesses",
+    "slug": "smb-security-checklist",
+    "summary": "Low-cost high-impact security measures for your business.",
+    "publishedDate": "2023-10-27",
+    "authorId": "author-vida",
+    "roleTags": [
+        "smb"
+    ],
+    "tags": [
+        "business",
+        "checklist",
+        "budget"
+    ],
+    "readTimeMinutes": 10,
+    "content": "# SMB Security Checklist\n\n1. Enable MFA on email.\n2. Remove local admin rights.\n3. Patch within 48 hours.",
+    "featuredImage": {
+        "src": "/images/articles/smb.jpg",
+        "alt": "Office"
+    }
+}

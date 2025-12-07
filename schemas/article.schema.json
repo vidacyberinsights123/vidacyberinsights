@@ -1,0 +1,78 @@
+{
+    "$id": "https://vidacyberinsights.example/schemas/article.schema.json",
+    "type": "object",
+    "required": [
+        "id",
+        "title",
+        "slug",
+        "summary",
+        "publishedDate",
+        "authorId",
+        "content",
+        "roleTags"
+    ],
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "slug": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+        },
+        "summary": {
+            "type": "string",
+            "maxLength": 300
+        },
+        "publishedDate": {
+            "type": "string",
+            "format": "date"
+        },
+        "updatedDate": {
+            "type": "string",
+            "format": "date"
+        },
+        "authorId": {
+            "type": "string"
+        },
+        "roleTags": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "individual",
+                    "student",
+                    "parent",
+                    "smb",
+                    "educator"
+                ]
+            }
+        },
+        "tags": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "content": {
+            "type": "string"
+        },
+        "readTimeMinutes": {
+            "type": "integer",
+            "minimum": 1
+        },
+        "featuredImage": {
+            "type": "object",
+            "properties": {
+                "src": {
+                    "type": "string"
+                },
+                "alt": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

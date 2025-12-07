@@ -1,0 +1,35 @@
+{
+    "$id": "roadmap-step.schema.json",
+    "type": "object",
+    "required": [
+        "id",
+        "title",
+        "description",
+        "estimatedMinutes",
+        "prerequisiteIds"
+    ],
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "estimatedMinutes": {
+            "type": "integer",
+            "minimum": 1
+        },
+        "contentReference": {
+            "type": "string"
+        },
+        "prerequisiteIds": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+}

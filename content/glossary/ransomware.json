@@ -1,0 +1,8 @@
+{
+    "id": "term-ransomware",
+    "term": "Ransomware",
+    "definition": "Malware that encrypts files and demands payment for decryption.",
+    "relatedIds": [
+        "term-phishing"
+    ]
+}

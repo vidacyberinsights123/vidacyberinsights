@@ -1,0 +1,22 @@
+{
+    "id": "article-phone-security",
+    "title": "5 Steps to Secure Your Phone Today",
+    "slug": "secure-your-phone-today",
+    "summary": "Simple actionable advice to lock down your mobile device against common threats.",
+    "publishedDate": "2023-10-27",
+    "authorId": "author-vida",
+    "roleTags": [
+        "individual"
+    ],
+    "tags": [
+        "mobile",
+        "security",
+        "privacy"
+    ],
+    "readTimeMinutes": 5,
+    "content": "# 5 Steps to Secure Your Phone Today\n\n1. **Set a strong passcode**: Don't use 1234.\n2. **Enable Biometrics**: FaceID or Fingerprint.\n3. **Update iOS/Android**: Always run the latest version.\n4. **Review App Permissions**: Does that flashlight app need your location?\n5. **Install a Mobile Security App**: Consider tools providing verify links.",
+    "featuredImage": {
+        "src": "/images/articles/phone-security.jpg",
+        "alt": "Secure Phone"
+    }
+}

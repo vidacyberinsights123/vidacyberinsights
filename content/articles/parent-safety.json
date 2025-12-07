@@ -1,0 +1,22 @@
+{
+    "id": "article-parent-safety",
+    "title": "Family Safety: Parental Controls & Healthy Screen Habits",
+    "slug": "family-safety-parental-controls",
+    "summary": "A guide for parents on managing digital safety for the family.",
+    "publishedDate": "2023-10-27",
+    "authorId": "author-vida",
+    "roleTags": [
+        "parent"
+    ],
+    "tags": [
+        "family",
+        "safety",
+        "parenting"
+    ],
+    "readTimeMinutes": 7,
+    "content": "# Family Digital Safety\n\nDiscuss content boundaries with your children early. Use tools like Family Link.",
+    "featuredImage": {
+        "src": "/images/articles/family.jpg",
+        "alt": "Family Tablet"
+    }
+}

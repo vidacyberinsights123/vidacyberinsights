@@ -1,0 +1,8 @@
+{
+    "id": "term-phishing",
+    "term": "Phishing",
+    "definition": "A social engineering attack used to steal user data.",
+    "relatedIds": [
+        "term-mfa"
+    ]
+}

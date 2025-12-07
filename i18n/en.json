@@ -1,0 +1,10 @@
+{
+    "nav.home": "Home",
+    "nav.individuals": "Individuals",
+    "nav.students": "Students",
+    "nav.parents": "Parents",
+    "nav.smb": "SMBs",
+    "nav.educators": "Educators",
+    "role.hub.title": "{role} Security Hub",
+    "role.hub.description": "Tailored cybersecurity resources for {role}s."
+}

@@ -1,0 +1,8 @@
+{
+    "id": "term-soc",
+    "term": "SOC",
+    "definition": "Security Operations Center - a centralized function within an organization employing people, processes, and technology to continuously monitor and improve an organization's security posture.",
+    "relatedIds": [
+        "term-siem"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "title": "Vidacyberinsights",
+    "description": "Production-ready, static-first cybersecurity education platform.",
+    "defaultLanguage": "en",
+    "social": {
+        "twitter": "@vidacyber",
+        "github": "vidacyber"
+    }
+}

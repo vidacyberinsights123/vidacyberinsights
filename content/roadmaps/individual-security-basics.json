@@ -1,0 +1,52 @@
+{
+    "id": "roadmap-individual-basics",
+    "role": "individual",
+    "title": "Personal Security Basics",
+    "description": "Essential steps to secure your digital life.",
+    "steps": [
+        {
+            "id": "step-1",
+            "title": "Enable MFA",
+            "description": "Turn on Multi-Factor Authentication for all important accounts.",
+            "estimatedMinutes": 15,
+            "contentReference": "article-phone-security",
+            "prerequisiteIds": []
+        },
+        {
+            "id": "step-2",
+            "title": "Password Manager",
+            "description": "Start using a password manager.",
+            "estimatedMinutes": 30,
+            "contentReference": "",
+            "prerequisiteIds": [
+                "step-1"
+            ]
+        },
+        {
+            "id": "step-3",
+            "title": "Software Updates",
+            "description": "Check and update your OS and apps.",
+            "estimatedMinutes": 20,
+            "contentReference": "",
+            "prerequisiteIds": []
+        },
+        {
+            "id": "step-4",
+            "title": "Phishing Awareness",
+            "description": "Learn to spot phishing emails.",
+            "estimatedMinutes": 10,
+            "contentReference": "",
+            "prerequisiteIds": []
+        },
+        {
+            "id": "step-5",
+            "title": "Backup Data",
+            "description": "Setup automatic backups.",
+            "estimatedMinutes": 45,
+            "contentReference": "",
+            "prerequisiteIds": [
+                "step-3"
+            ]
+        }
+    ]
+}
