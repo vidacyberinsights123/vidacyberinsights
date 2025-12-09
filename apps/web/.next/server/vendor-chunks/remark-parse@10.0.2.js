@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "vendor-chunks/remark-parse@10.0.2";
+exports.ids = ["vendor-chunks/remark-parse@10.0.2"];
+exports.modules = {
+
+/***/ "(rsc)/../../node_modules/.pnpm/remark-parse@10.0.2/node_modules/remark-parse/lib/index.js":
+/*!*******************************************************************************************!*\
+  !*** ../../node_modules/.pnpm/remark-parse@10.0.2/node_modules/remark-parse/lib/index.js ***!
+  \*******************************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ remarkParse)\n/* harmony export */ });\n/* harmony import */ var mdast_util_from_markdown__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! mdast-util-from-markdown */ \"(rsc)/../../node_modules/.pnpm/mdast-util-from-markdown@1.3.1/node_modules/mdast-util-from-markdown/dev/lib/index.js\");\n/**\n * @typedef {import('mdast').Root} Root\n * @typedef {import('mdast-util-from-markdown').Options} Options\n */\n\n\n\n/**\n * @this {import('unified').Processor}\n * @type {import('unified').Plugin<[Options?] | void[], string, Root>}\n */\nfunction remarkParse(options) {\n  /** @type {import('unified').ParserFunction<Root>} */\n  const parser = (doc) => {\n    // Assume options.\n    const settings = /** @type {Options} */ (this.data('settings'))\n\n    return (0,mdast_util_from_markdown__WEBPACK_IMPORTED_MODULE_0__.fromMarkdown)(\n      doc,\n      Object.assign({}, settings, options, {\n        // Note: these options are not in the readme.\n        // The goal is for them to be set by plugins on `data` instead of being\n        // passed by users.\n        extensions: this.data('micromarkExtensions') || [],\n        mdastExtensions: this.data('fromMarkdownExtensions') || []\n      })\n    )\n  }\n\n  Object.assign(this, {Parser: parser})\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi4vLi4vbm9kZV9tb2R1bGVzLy5wbnBtL3JlbWFyay1wYXJzZUAxMC4wLjIvbm9kZV9tb2R1bGVzL3JlbWFyay1wYXJzZS9saWIvaW5kZXguanMiLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBQTtBQUNBLGFBQWEsc0JBQXNCO0FBQ25DLGFBQWEsNENBQTRDO0FBQ3pEOztBQUVxRDs7QUFFckQ7QUFDQSxVQUFVO0FBQ1YsVUFBVTtBQUNWO0FBQ2U7QUFDZixhQUFhLHdDQUF3QztBQUNyRDtBQUNBO0FBQ0EsZ0NBQWdDLFNBQVM7O0FBRXpDLFdBQVcsc0VBQVk7QUFDdkI7QUFDQSxzQkFBc0I7QUFDdEI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLE9BQU87QUFDUDtBQUNBOztBQUVBLHVCQUF1QixlQUFlO0FBQ3RDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vd2ViLy4uLy4uL25vZGVfbW9kdWxlcy8ucG5wbS9yZW1hcmstcGFyc2VAMTAuMC4yL25vZGVfbW9kdWxlcy9yZW1hcmstcGFyc2UvbGliL2luZGV4LmpzP2VhMGUiXSwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBAdHlwZWRlZiB7aW1wb3J0KCdtZGFzdCcpLlJvb3R9IFJvb3RcbiAqIEB0eXBlZGVmIHtpbXBvcnQoJ21kYXN0LXV0aWwtZnJvbS1tYXJrZG93bicpLk9wdGlvbnN9IE9wdGlvbnNcbiAqL1xuXG5pbXBvcnQge2Zyb21NYXJrZG93bn0gZnJvbSAnbWRhc3QtdXRpbC1mcm9tLW1hcmtkb3duJ1xuXG4vKipcbiAqIEB0aGlzIHtpbXBvcnQoJ3VuaWZpZWQnKS5Qcm9jZXNzb3J9XG4gKiBAdHlwZSB7aW1wb3J0KCd1bmlmaWVkJykuUGx1Z2luPFtPcHRpb25zP10gfCB2b2lkW10sIHN0cmluZywgUm9vdD59XG4gKi9cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIHJlbWFya1BhcnNlKG9wdGlvbnMpIHtcbiAgLyoqIEB0eXBlIHtpbXBvcnQoJ3VuaWZpZWQnKS5QYXJzZXJGdW5jdGlvbjxSb290Pn0gKi9cbiAgY29uc3QgcGFyc2VyID0gKGRvYykgPT4ge1xuICAgIC8vIEFzc3VtZSBvcHRpb25zLlxuICAgIGNvbnN0IHNldHRpbmdzID0gLyoqIEB0eXBlIHtPcHRpb25zfSAqLyAodGhpcy5kYXRhKCdzZXR0aW5ncycpKVxuXG4gICAgcmV0dXJuIGZyb21NYXJrZG93bihcbiAgICAgIGRvYyxcbiAgICAgIE9iamVjdC5hc3NpZ24oe30sIHNldHRpbmdzLCBvcHRpb25zLCB7XG4gICAgICAgIC8vIE5vdGU6IHRoZXNlIG9wdGlvbnMgYXJlIG5vdCBpbiB0aGUgcmVhZG1lLlxuICAgICAgICAvLyBUaGUgZ29hbCBpcyBmb3IgdGhlbSB0byBiZSBzZXQgYnkgcGx1Z2lucyBvbiBgZGF0YWAgaW5zdGVhZCBvZiBiZWluZ1xuICAgICAgICAvLyBwYXNzZWQgYnkgdXNlcnMuXG4gICAgICAgIGV4dGVuc2lvbnM6IHRoaXMuZGF0YSgnbWljcm9tYXJrRXh0ZW5zaW9ucycpIHx8IFtdLFxuICAgICAgICBtZGFzdEV4dGVuc2lvbnM6IHRoaXMuZGF0YSgnZnJvbU1hcmtkb3duRXh0ZW5zaW9ucycpIHx8IFtdXG4gICAgICB9KVxuICAgIClcbiAgfVxuXG4gIE9iamVjdC5hc3NpZ24odGhpcywge1BhcnNlcjogcGFyc2VyfSlcbn1cbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/../../node_modules/.pnpm/remark-parse@10.0.2/node_modules/remark-parse/lib/index.js\n");
+
+/***/ })
+
+};
+;

@@ -1,5 +1,7 @@
 import './global.css';
 import { BlueprintSite } from '../components/BlueprintSite';
+import "@fontsource/inter";
+import "@fontsource/jetbrains-mono";
 
 export const metadata = {
     title: 'Vidacyberinsights',

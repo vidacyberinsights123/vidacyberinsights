@@ -5,7 +5,7 @@ export function BlueprintArticle({ article }: any) {
         <article className="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow-sm">
             <header className="mb-8 border-b pb-8">
                 <div className="flex gap-2 mb-4">
-                    {article.roleTags.map((tag: string) => (
+                    {(article.tags || article.roleTags || []).map((tag: string) => (
                         <span key={tag} className="text-xs font-bold uppercase tracking-wider text-blue-600 bg-blue-50 px-3 py-1 rounded-full">
                             {tag}
                         </span>
@@ -18,9 +18,9 @@ export function BlueprintArticle({ article }: any) {
                 </div>
             </header>
 
-            <div className="prose prose-lg prose-slate max-w-none">
-                {/* In real app, render markdown here */}
-                <pre className="whitespace-pre-wrap font-sans text-base">{article.content}</pre>
+            <div className="prose prose-lg prose-slate max-w-none text-slate-800">
+                {/* Render server-generated HTML to ensure server/client consistency */}
+                <div dangerouslySetInnerHTML={{ __html: article.contentHtml || article.content }} />
             </div>
 
             <script

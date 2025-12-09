@@ -12,14 +12,17 @@ export function BlueprintSite({ children }: { children: React.ReactNode }) {
     ];
 
     return (
-        <div className="min-h-screen flex flex-col font-sans text-slate-900 bg-slate-50">
-            <header>
+        <div className="min-h-screen flex flex-col font-sans text-white bg-transparent">
+            {/* Sticky Glass Header */}
+            <header className="sticky top-0 z-50 w-full glass border-b border-white/10">
                 <Nav items={navItems} />
             </header>
-            <main className="flex-grow container mx-auto px-4 py-8">
+
+            <main className="flex-grow">
                 {children}
             </main>
-            <footer className="bg-slate-900 text-slate-400 p-8 mt-12">
+
+            <footer className="bg-slate-900/80 backdrop-blur border-t border-white/10 text-slate-400 p-8 mt-12 relative z-10">
                 <div className="container mx-auto">
                     <p>&copy; {new Date().getFullYear()} Vidacyberinsights. All rights reserved.</p>
                 </div>

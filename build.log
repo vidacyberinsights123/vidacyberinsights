@@ -1,0 +1,46 @@
+
+> vidacyberinsights-monorepo@0.0.1 build D:\vidacyberinsights\vidacyberinsights
+> turbo run build
+
+ΓÇó Packages in scope: @vidacyber/ui, web
+ΓÇó Running build in 2 packages
+ΓÇó Remote caching disabled
+web:build: cache miss, executing 56e490f8ef574b53
+web:build: 
+web:build: > web@0.0.1 build D:\vidacyberinsights\vidacyberinsights\apps\web
+web:build: > next build
+web:build: 
+web:build:   Γû▓ Next.js 14.2.33
+web:build: 
+web:build:    Creating an optimized production build ...
+web:build: Failed to compile.
+web:build: 
+web:build: ./components/BlueprintRoleHub.tsx
+web:build: Module not found: Can't resolve '@vidacyber/ui'
+web:build: 
+web:build: https://nextjs.org/docs/messages/module-not-found
+web:build: 
+web:build: Import trace for requested module:
+web:build: ./app/[role]/page.tsx
+web:build: 
+web:build: ./components/BlueprintSite.tsx
+web:build: Module not found: Can't resolve '@vidacyber/ui'
+web:build: 
+web:build: https://nextjs.org/docs/messages/module-not-found
+web:build: 
+web:build: Import trace for requested module:
+web:build: ./app/layout.tsx
+web:build: 
+web:build: 
+web:build: > Build failed because of webpack errors
+web:build: ΓÇëELIFECYCLEΓÇë Command failed with exit code 1.
+web:build: ERROR: command finished with error: command (D:\vidacyberinsights\vidacyberinsights\apps\web) C:\Program Files\nodejs\pnpm.CMD run build exited (1)
+web#build: command (D:\vidacyberinsights\vidacyberinsights\apps\web) C:\Program Files\nodejs\pnpm.CMD run build exited (1)
+
+ Tasks:    0 successful, 1 total
+Cached:    0 cached, 1 total
+  Time:    10.682s 
+Failed:    web#build
+
+ ERROR  run failed: command  exited (1)
+ΓÇëELIFECYCLEΓÇë Command failed with exit code 1.

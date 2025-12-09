@@ -1,0 +1,40 @@
+
+> vidacyberinsights-monorepo@0.0.1 build D:\vidacyberinsights\vidacyberinsights
+> turbo run build
+
+ΓÇó Packages in scope: @vidacyber/ui, web
+ΓÇó Running build in 2 packages
+ΓÇó Remote caching disabled
+web:build: cache miss, executing 9d9ed19287477b14
+web:build: 
+web:build: > web@0.0.1 build D:\vidacyberinsights\vidacyberinsights\apps\web
+web:build: > next build
+web:build: 
+web:build:   Γû▓ Next.js 14.2.33
+web:build: 
+web:build:    Creating an optimized production build ...
+web:build:  Γ£ô Compiled successfully
+web:build:    Linting and checking validity of types ...
+web:build: Failed to compile.
+web:build: 
+web:build: ../../packages/ui/src/components/Button.tsx:9:47
+web:build: Type error: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ primary: string; secondary: string; }'.
+web:build: 
+web:build: [0m [90m  7 |[39m         secondary[33m:[39m [32m"bg-gray-200 text-gray-800 hover:bg-gray-300"[39m[0m
+web:build: [0m [90m  8 |[39m     }[33m;[39m[0m
+web:build: [0m[31m[1m>[22m[39m[90m  9 |[39m     [36mreturn[39m [33m<[39m[33mbutton[39m className[33m=[39m{[32m`${baseStyle} ${variants[variant] || variants.primary}`[39m} onClick[33m=[39m{onClick}[33m>[39m{children}[33m<[39m[33m/[39m[33mbutton[39m[33m>[39m[33m;[39m[0m
+web:build: [0m [90m    |[39m                                               [31m[1m^[22m[39m[0m
+web:build: [0m [90m 10 |[39m }[33m;[39m[0m
+web:build: [0m [90m 11 |[39m[0m
+web:build: Next.js build worker exited with code: 1 and signal: null
+web:build: ΓÇëELIFECYCLEΓÇë Command failed with exit code 1.
+web:build: ERROR: command finished with error: command (D:\vidacyberinsights\vidacyberinsights\apps\web) C:\Program Files\nodejs\pnpm.CMD run build exited (1)
+web#build: command (D:\vidacyberinsights\vidacyberinsights\apps\web) C:\Program Files\nodejs\pnpm.CMD run build exited (1)
+
+ Tasks:    0 successful, 1 total
+Cached:    0 cached, 1 total
+  Time:    2m10.94s 
+Failed:    web#build
+
+ ERROR  run failed: command  exited (1)
+ΓÇëELIFECYCLEΓÇë Command failed with exit code 1.

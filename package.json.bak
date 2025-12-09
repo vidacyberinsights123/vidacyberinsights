@@ -1,0 +1,21 @@
+{
+    "name": "vidacyberinsights-monorepo",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "dev": "turbo run dev",
+        "build": "turbo run build",
+        "lint": "turbo run lint",
+        "validate:content": "node scripts/validate-content.js",
+        "test": "turbo run test"
+    },
+    "devDependencies": {
+        "turbo": "^1.10.0",
+        "prettier": "^3.0.0",
+        "eslint": "^8.0.0",
+        "husky": "^8.0.0",
+        "ajv": "^8.12.0",
+        "ajv-formats": "^2.1.1"
+    },
+    "packageManager":"pnpm@latest"
+}

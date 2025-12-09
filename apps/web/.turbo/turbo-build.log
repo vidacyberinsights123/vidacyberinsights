@@ -1,0 +1,40 @@
+
+> web@0.0.1 build D:\vidacyberinsights\vidacyberinsights\apps\web
+> next build
+
+  ▲ Next.js 14.2.33
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/14) ...
+   Generating static pages (3/14) 
+   Generating static pages (6/14) 
+   Generating static pages (10/14) 
+ ✓ Generating static pages (14/14)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                      Size     First Load JS
+┌ ○ /                                            8.88 kB        96.1 kB
+├ ○ /_not-found                                  873 B          88.1 kB
+├ ● /[role]                                      141 B          87.4 kB
+├   ├ /individual
+├   ├ /student
+├   ├ /parent
+├   └ [+2 more paths]
+└ ● /articles/[slug]                             141 B          87.4 kB
+    ├ /articles/secure-classrooms-student-data
+    ├ /articles/secure-your-phone-today
+    ├ /articles/family-safety-parental-controls
+    └ [+2 more paths]
++ First Load JS shared by all                    87.2 kB
+  ├ chunks/844-0b5a9bb21214ee3d.js               31.7 kB
+  ├ chunks/f28872f0-852e80eb27d3cc75.js          53.6 kB
+  └ other shared chunks (total)                  1.86 kB
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses getStaticProps)
+

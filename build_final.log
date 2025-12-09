@@ -1,0 +1,53 @@
+
+> vidacyberinsights-monorepo@0.0.1 build D:\vidacyberinsights\vidacyberinsights
+> turbo run build
+
+ΓÇó Packages in scope: @vidacyber/ui, web
+ΓÇó Running build in 2 packages
+ΓÇó Remote caching disabled
+web:build: cache miss, executing f6fbbfa3c874783e
+web:build: 
+web:build: > web@0.0.1 build D:\vidacyberinsights\vidacyberinsights\apps\web
+web:build: > next build
+web:build: 
+web:build:   Γû▓ Next.js 14.2.33
+web:build: 
+web:build:    Creating an optimized production build ...
+web:build:  Γ£ô Compiled successfully
+web:build:    Linting and checking validity of types ...
+web:build:    Collecting page data ...
+web:build:    Generating static pages (0/14) ...
+web:build:    Generating static pages (3/14) 
+web:build:    Generating static pages (6/14) 
+web:build:    Generating static pages (10/14) 
+web:build:  Γ£ô Generating static pages (14/14)
+web:build:    Finalizing page optimization ...
+web:build:    Collecting build traces ...
+web:build: 
+web:build: Route (app)                                      Size     First Load JS
+web:build: Γöî Γùï /                                            8.88 kB        96.1 kB
+web:build: Γö£ Γùï /_not-found                                  873 B          88.1 kB
+web:build: Γö£ ΓùÅ /[role]                                      141 B          87.4 kB
+web:build: Γö£   Γö£ /individual
+web:build: Γö£   Γö£ /student
+web:build: Γö£   Γö£ /parent
+web:build: Γö£   Γöö [+2 more paths]
+web:build: Γöö ΓùÅ /articles/[slug]                             141 B          87.4 kB
+web:build:     Γö£ /articles/secure-classrooms-student-data
+web:build:     Γö£ /articles/secure-your-phone-today
+web:build:     Γö£ /articles/family-safety-parental-controls
+web:build:     Γöö [+2 more paths]
+web:build: + First Load JS shared by all                    87.2 kB
+web:build:   Γö£ chunks/844-0b5a9bb21214ee3d.js               31.7 kB
+web:build:   Γö£ chunks/f28872f0-852e80eb27d3cc75.js          53.6 kB
+web:build:   Γöö other shared chunks (total)                  1.86 kB
+web:build: 
+web:build: 
+web:build: Γùï  (Static)  prerendered as static content
+web:build: ΓùÅ  (SSG)     prerendered as static HTML (uses getStaticProps)
+web:build: 
+
+ Tasks:    1 successful, 1 total
+Cached:    0 cached, 1 total
+  Time:    54.067s 
+
